@@ -1,0 +1,225 @@
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+.header-left{
+  color: white;
+  font-style: italic;
+  float: left;
+}
+
+a{
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 10px;
+  margin: 0 auto;
+  color: white;
+}
+
+
+
+span{
+
+  background-color: black;
+  opacity: 100%;
+  color: white;
+  padding: 0 20px;
+  border-radius: 50px;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(programming.svg);
+  background-size: cover;
+  color: white;
+  opacity: 80%;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 90%;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 110px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  /* Change the position property to fixed, and top property to 0 */
+  position : fixed;
+
+  /* Change the z-index property to 10 */
+  z-index : 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+  .header-left{
+  float: left;
+  }
+
+.header-left a{
+  float: left;
+  color: white;
+  transition: all 0.5s;
+  padding-right: 20px;'
+  align-items: center;
+}
+
+.header-left a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+}
+
+
+.header-right {
+  float: right;
+  transition: all 0.5s;
+  margin-right : 10px;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 60px;
+}
+
+.header-right a {
+  line-height: 110px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5A5D5C;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 33.33%;
+  opacity: 1;
+    transform: translateZ(0);
+}
+
+.lesson-icon {
+  position: relative;
+  width: 100%;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 75px;
+  width: 90%;
+  color: white;
+  width: 100%;
+  padding: 0px;
+
+}
+
+.lesson-icon p:hover{
+
+  font-size: 25px;
+  top : 65px;
+  transition: all 0.2s;
+  color: #323A41;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #8D99AE;
+  padding: 20px;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+}
